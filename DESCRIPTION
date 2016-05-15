@@ -1,0 +1,34 @@
+Package: OptimalDesignMM
+Title: Generating Improved Experimental Designs Using Mixed Models
+Version: 0.0.0.9000
+Date: 2016-05-15
+Authors@R: as.person(c(
+    "Lazarus Mramba <lmramba@gmail.com> [aut, cre]",
+    "Salvador Gezan <sgezan@ufl.edu> [aut]"
+  ))
+Author: Lazarus Mramba [aut, cre],
+        Salvador Gezan [aut]
+Maintainer: Lazarus Mramba <lmramba@gmail.com>
+Description: This package has been created with an aim to generate and optimize
+             field experiments.
+Details: Initial and Optimal experimental designs are generated
+    considering both genetic and spatial correlations simulatenaously. "A" or "D"
+    optimality criteria are employed together with a swap (interchange) algorithm in
+    the context of Linear Mixed Models.
+Note: For the RCB designs, blocks are considered fixed and treatments
+    (genotypes) are random effects. For the incomplete, unequal and augmented designs,
+    both blocks and treatments are random effects, with only the intercept being
+    a fixed effect.
+Suggests:
+       testthat,
+       knitr
+Depends:
+      R (>= 3.2.4),
+      Matrix (>= 1.2-3),
+      nadiv (>= 2.14.1),
+      MASS (>= 7.3-45),
+License: GPL (>= 2)
+ByteCompile: yes
+LazyData: true
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
