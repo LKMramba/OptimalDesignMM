@@ -23,7 +23,7 @@ Suggests:
        testthat,
        knitr
 Depends:
-      R (>= 3.2.4),
+      R (>= 3.3.0),
       Matrix (>= 1.2-3),
       nadiv (>= 2.14.1),
       MASS (>= 7.3-45),

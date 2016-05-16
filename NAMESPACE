@@ -2,6 +2,8 @@
 
 export(DesLayout)
 export(GenA)
+export(Gmatrix)
+export(Rmatrix)
 export(rcbd)
 import(MASS)
 import(Matrix)
